@@ -1,0 +1,9 @@
+newmtl PartMaterial(Clone)
+Kd 1 1 1
+map_Kd texture.JihadDeliverer_export.png
+illum 2
+
+newmtl PartMaterial(Clone) (Instance)
+map_Kd texture.JihadDeliverer_export.png
+illum 2
+

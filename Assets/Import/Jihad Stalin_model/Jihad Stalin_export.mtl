@@ -1,0 +1,12 @@
+newmtl PartMaterial(Clone)
+Kd 1 1 1
+map_Kd texture.JihadStalin_export.png
+illum 2
+
+newmtl PartTransparentZWrite(Clone)
+Kd 1 1 1
+Tr 0.15
+d 0.85
+map_Kd texture.JihadStalin_export.png
+illum 2
+

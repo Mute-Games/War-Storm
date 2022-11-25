@@ -1,0 +1,766 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1668531173397990, "dur": 292226, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1668531173399401, "dur": 24176, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1668531173424048, "dur": 256297, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1668531173680369, "dur": 9847, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1668531191647324, "dur": 1081205, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1668531191647571, "dur": 9762, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1668531191657336, "dur": 1057844, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1668531192715182, "dur": 13346, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1668531192729052, "dur": 16, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1668531191735887, "dur":2047, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668531191737943, "dur":425, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1668531191738410, "dur":27, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1668531191738438, "dur":558, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1668531191739030, "dur":605, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668531191739635, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668531192692761, "dur":277, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668531192693038, "dur":35, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668531192693074, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668531192693077, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668531192693086, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668531192693087, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668531192693094, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668531192693096, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668531192693101, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668531192693102, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668531192693107, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668531192693109, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668531192693114, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668531192693115, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668531192693120, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668531192693122, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668531192693127, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668531192693129, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668531192693133, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668531192693135, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668531192693140, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668531192693141, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668531192693146, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668531192693148, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668531192693153, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668531192693170, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668531192693183, "dur":3378, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1668531191739143, "dur":515, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668531191739658, "dur":6717, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668531191746384, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":1, "ts":1668531191746545, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668531191746576, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668531191762392, "dur":57015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":1, "ts":1668531191819458, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668531191819503, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668531191819559, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668531191819650, "dur":52151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668531191871843, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668531191871884, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668531191871913, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668531191871922, "dur":75806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668531191947777, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668531191947821, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668531191947868, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668531191947876, "dur":33922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668531191981838, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668531191981881, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668531191981916, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668531191981927, "dur":63728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668531192045701, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668531192045750, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668531192045785, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668531192045795, "dur":36451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668531192082287, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668531192082330, "dur":440, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668531192082780, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668531192082792, "dur":53436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668531192136265, "dur":18671, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668531192154937, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668531192155024, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668531192155036, "dur":1069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668531192156141, "dur":1001, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668531192157143, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668531192157235, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668531192157280, "dur":1908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668531192159238, "dur":1033, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668531192160273, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668531192160371, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668531192160381, "dur":1155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668531192161574, "dur":37416, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668531192198992, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668531192199072, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668531192199081, "dur":973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668531192200106, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668531192200142, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668531192200174, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668531192200181, "dur":117347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668531192317565, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668531192317604, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668531192317647, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668531192317656, "dur":165998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668531192483697, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1668531192483764, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668531192483770, "dur":32200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1668531192516014, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/level5" }}
+,{ "pid":12345, "tid":1, "ts":1668531192516074, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668531192516082, "dur":4899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/level5" }}
+,{ "pid":12345, "tid":1, "ts":1668531192521031, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1668531192521083, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668531192521087, "dur":1760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1668531192522878, "dur":169930, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668531191739133, "dur":518, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668531191739653, "dur":6709, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668531191746384, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1668531191746386, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668531191746496, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1668531191746498, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668531191746537, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668531191747558, "dur":2743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1668531191750306, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1668531191750429, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668531191750480, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668531191751005, "dur":1475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1668531191752527, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1668531191752621, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668531191752652, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668531191752658, "dur":65775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1668531191818486, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668531191818532, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668531191818573, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668531191819799, "dur":79619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668531191899463, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668531191899504, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668531191899540, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668531191899549, "dur":48186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668531191947798, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668531191947843, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668531191947882, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668531191947888, "dur":54238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668531192002162, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668531192002197, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668531192002228, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668531192002236, "dur":52087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668531192054379, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668531192054423, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668531192054465, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668531192054475, "dur":30116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668531192084630, "dur":57821, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668531192142453, "dur":4534, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668531192146997, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668531192147008, "dur":1472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668531192148517, "dur":67671, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668531192216189, "dur":159, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668531192216356, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668531192216365, "dur":1370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668531192217773, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668531192217808, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668531192217841, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668531192217848, "dur":147165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668531192365052, "dur":169032, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668531192534086, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668531192534211, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668531192534224, "dur":1454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668531192535721, "dur":157079, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668531191739208, "dur":467, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668531191739675, "dur":6718, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668531191746394, "dur":194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1668531191746588, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668531191746640, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668531191753527, "dur":1695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1668531191755357, "dur":63306, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm.exe" }}
+,{ "pid":12345, "tid":3, "ts":1668531191818663, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668531191818706, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668531191818710, "dur":2329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm.exe" }}
+,{ "pid":12345, "tid":3, "ts":1668531191821084, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668531191821141, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668531191821184, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668531191821231, "dur":57170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668531191878443, "dur":130590, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668531192009035, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668531192009141, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668531192009152, "dur":1969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668531192011171, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668531192011215, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668531192011360, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668531192011367, "dur":28627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668531192040060, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668531192040099, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668531192040128, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668531192040133, "dur":65327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668531192105499, "dur":104031, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668531192209531, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668531192209630, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668531192209640, "dur":1451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668531192211210, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668531192211361, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668531192211416, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668531192211456, "dur":47528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668531192259027, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668531192259065, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668531192259097, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668531192259105, "dur":312292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668531192571428, "dur":121338, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668531191739177, "dur":494, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668531191739671, "dur":6707, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668531191746395, "dur":316, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1668531191746711, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668531191746778, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668531191843424, "dur":2250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1668531191845719, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668531191845771, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668531191845800, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668531191845806, "dur":28524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668531191874371, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668531191874409, "dur":227, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668531191874641, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668531191874651, "dur":82351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668531191957050, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668531191957088, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668531191957121, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668531191957129, "dur":66183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668531192023354, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668531192023393, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668531192023425, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668531192023434, "dur":22278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668531192045754, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668531192045790, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668531192045817, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668531192045851, "dur":26102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668531192071997, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668531192072036, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668531192072069, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668531192072077, "dur":36302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668531192108419, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668531192108457, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668531192108492, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668531192108500, "dur":74091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668531192182650, "dur":4526, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668531192187177, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668531192187249, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668531192187260, "dur":2626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668531192189929, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668531192189973, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668531192190010, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668531192190018, "dur":111113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668531192301177, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668531192301222, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668531192301266, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668531192301275, "dur":173483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668531192474804, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1668531192474856, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668531192474894, "dur":8453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1668531192483394, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":4, "ts":1668531192483442, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668531192483453, "dur":23168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":4, "ts":1668531192506703, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1668531192506752, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668531192506765, "dur":5769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1668531192512587, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/level9" }}
+,{ "pid":12345, "tid":4, "ts":1668531192512649, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668531192512667, "dur":11735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/level9" }}
+,{ "pid":12345, "tid":4, "ts":1668531192524439, "dur":168316, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668531191739269, "dur":421, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668531191739690, "dur":6709, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668531191746401, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1668531191746549, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668531191746581, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668531191818627, "dur":2779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1668531191821504, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668531191821554, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668531191821581, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668531191821588, "dur":25600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668531191847228, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668531191847262, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668531191847291, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668531191847299, "dur":29196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668531191876530, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668531191876571, "dur":145, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668531191876764, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668531191876771, "dur":66971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668531191943782, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668531191943817, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668531191943848, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668531191943856, "dur":75085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668531192018983, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668531192019025, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668531192019057, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668531192019064, "dur":122439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668531192141579, "dur":42214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668531192183794, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668531192183877, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668531192183887, "dur":1814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668531192185773, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668531192185814, "dur":140, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668531192185961, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668531192185988, "dur":106898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668531192292923, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668531192292964, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668531192292998, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668531192293006, "dur":59485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668531192352530, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668531192352569, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668531192352599, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668531192352607, "dur":230167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668531192582805, "dur":109985, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668531191739320, "dur":377, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668531191739697, "dur":6689, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668531191746388, "dur":238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1668531191746627, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668531191746689, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668531191819011, "dur":2990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1668531191822056, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668531191822113, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668531191822153, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668531191822164, "dur":54306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668531191876519, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668531191876561, "dur":144, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668531191876743, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668531191876753, "dur":76347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668531191953142, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668531191953194, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668531191953240, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668531191953249, "dur":25250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668531191978542, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668531191978582, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668531191978616, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668531191978625, "dur":21629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668531192000290, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668531192000326, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668531192000355, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668531192000363, "dur":50126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668531192050533, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668531192050570, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668531192050603, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668531192050611, "dur":27148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668531192077897, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668531192077942, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668531192077982, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668531192077990, "dur":41848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668531192119876, "dur":70653, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668531192190531, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668531192190609, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668531192190619, "dur":1476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668531192192151, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668531192192194, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668531192192236, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668531192192245, "dur":144289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668531192336573, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668531192336611, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668531192336650, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668531192336659, "dur":48586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668531192385292, "dur":503, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":6, "ts":1668531192385796, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668531192385864, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668531192386525, "dur":955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":6, "ts":1668531192387526, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1668531192387615, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668531192387664, "dur":1549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1668531192389259, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/sharedassets9.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1668531192389305, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668531192389313, "dur":4791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/sharedassets9.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1668531192394443, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/sharedassets9.assets" }}
+,{ "pid":12345, "tid":6, "ts":1668531192394508, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668531192394528, "dur":1440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/sharedassets9.assets" }}
+,{ "pid":12345, "tid":6, "ts":1668531192396008, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/sharedassets8.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1668531192396050, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668531192396058, "dur":11287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/sharedassets8.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1668531192407386, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/sharedassets8.assets" }}
+,{ "pid":12345, "tid":6, "ts":1668531192407456, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668531192407465, "dur":1573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/sharedassets8.assets" }}
+,{ "pid":12345, "tid":6, "ts":1668531192409082, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/sharedassets7.resource" }}
+,{ "pid":12345, "tid":6, "ts":1668531192409126, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668531192409134, "dur":25313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/sharedassets7.resource" }}
+,{ "pid":12345, "tid":6, "ts":1668531192434500, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/sharedassets7.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1668531192434580, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668531192434588, "dur":5772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/sharedassets7.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1668531192440399, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":6, "ts":1668531192440437, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668531192440445, "dur":1769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":6, "ts":1668531192442264, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/sharedassets6.resource" }}
+,{ "pid":12345, "tid":6, "ts":1668531192442306, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668531192442314, "dur":15391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/sharedassets6.resource" }}
+,{ "pid":12345, "tid":6, "ts":1668531192457746, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":6, "ts":1668531192457792, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668531192457802, "dur":1485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":6, "ts":1668531192459343, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/sharedassets5.resource" }}
+,{ "pid":12345, "tid":6, "ts":1668531192459392, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668531192459402, "dur":15216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/sharedassets5.resource" }}
+,{ "pid":12345, "tid":6, "ts":1668531192474671, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":6, "ts":1668531192474723, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668531192474732, "dur":2709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":6, "ts":1668531192477489, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":6, "ts":1668531192477535, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668531192477543, "dur":4130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":6, "ts":1668531192481732, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":6, "ts":1668531192481779, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668531192481788, "dur":4623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":6, "ts":1668531192486462, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":6, "ts":1668531192486514, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668531192486527, "dur":14608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":6, "ts":1668531192501205, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1668531192501269, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668531192501283, "dur":4953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1668531192506289, "dur":1861, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1668531192508156, "dur":815, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668531192508988, "dur":58, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668531192509063, "dur":6725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1668531192515836, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/level7" }}
+,{ "pid":12345, "tid":6, "ts":1668531192515886, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668531192515928, "dur":1627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/level7" }}
+,{ "pid":12345, "tid":6, "ts":1668531192517590, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/level3" }}
+,{ "pid":12345, "tid":6, "ts":1668531192517627, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668531192517631, "dur":1193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/level3" }}
+,{ "pid":12345, "tid":6, "ts":1668531192518868, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/level2" }}
+,{ "pid":12345, "tid":6, "ts":1668531192518913, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668531192518923, "dur":1942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/level2" }}
+,{ "pid":12345, "tid":6, "ts":1668531192520906, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1668531192520974, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668531192520982, "dur":1443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1668531192522467, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1668531192522599, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668531192522635, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668531192522643, "dur":1596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1668531192524283, "dur":168512, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668531191739374, "dur":328, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668531191739702, "dur":6746, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668531191746449, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1668531191746587, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668531191746643, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668531191748762, "dur":2140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1668531191750940, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1668531191751015, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668531191751037, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668531191751043, "dur":1452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1668531191752538, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668531191752632, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668531191752672, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668531191752903, "dur":65492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668531191818455, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1668531191818581, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668531191818618, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668531191819089, "dur":9270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1668531191828400, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668531191828445, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668531191828475, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668531191828483, "dur":106595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668531191935127, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668531191935168, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668531191935203, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668531191935210, "dur":28434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668531191963695, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668531191963736, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668531191963770, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668531191963779, "dur":23201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668531191987026, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668531191987067, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668531191987102, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668531191987110, "dur":66358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668531192053506, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668531192053547, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668531192053580, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668531192053589, "dur":136332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668531192189966, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668531192190010, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668531192190044, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668531192190050, "dur":161345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668531192351437, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668531192351475, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668531192351509, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668531192351517, "dur":341174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668531192692721, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":7, "ts":1668531192692722, "dur":1, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668531191739433, "dur":283, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668531191739716, "dur":6672, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668531191746392, "dur":258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1668531191746651, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668531191746715, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668531191748794, "dur":2030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1668531191750871, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1668531191751001, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668531191751045, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668531191751052, "dur":1752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1668531191752849, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668531191753012, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668531191753048, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668531191753054, "dur":65491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668531191818590, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668531191818636, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668531191818721, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668531191819593, "dur":52786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668531191872421, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668531191872469, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668531191872505, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668531191872516, "dur":64592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668531191937151, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668531191937194, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668531191937229, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668531191937239, "dur":77937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668531192015229, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668531192015265, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668531192015300, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668531192015307, "dur":40093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668531192055447, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668531192055500, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668531192055544, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668531192055554, "dur":26232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668531192081888, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668531192081932, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668531192081999, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668531192082006, "dur":41811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668531192123860, "dur":203124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668531192326986, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668531192327064, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668531192327074, "dur":2834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668531192329946, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668531192329981, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668531192330017, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668531192330059, "dur":134099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668531192464200, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":8, "ts":1668531192464240, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668531192464247, "dur":1790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":8, "ts":1668531192466074, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/sharedassets4.resource" }}
+,{ "pid":12345, "tid":8, "ts":1668531192466118, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668531192466128, "dur":12795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/sharedassets4.resource" }}
+,{ "pid":12345, "tid":8, "ts":1668531192478977, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":8, "ts":1668531192479028, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668531192479042, "dur":25750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":8, "ts":1668531192504863, "dur":256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1668531192505123, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668531192505220, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668531192505233, "dur":5449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1668531192510768, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/resources.assets" }}
+,{ "pid":12345, "tid":8, "ts":1668531192510877, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668531192510889, "dur":2149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/resources.assets" }}
+,{ "pid":12345, "tid":8, "ts":1668531192513091, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/level8" }}
+,{ "pid":12345, "tid":8, "ts":1668531192513157, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668531192513170, "dur":2665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/level8" }}
+,{ "pid":12345, "tid":8, "ts":1668531192515880, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/level6" }}
+,{ "pid":12345, "tid":8, "ts":1668531192515934, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668531192515938, "dur":1553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/level6" }}
+,{ "pid":12345, "tid":8, "ts":1668531192517536, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/level4" }}
+,{ "pid":12345, "tid":8, "ts":1668531192517576, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668531192517584, "dur":1245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/level4" }}
+,{ "pid":12345, "tid":8, "ts":1668531192518883, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/level1" }}
+,{ "pid":12345, "tid":8, "ts":1668531192518924, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668531192518930, "dur":2099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/level1" }}
+,{ "pid":12345, "tid":8, "ts":1668531192521069, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1668531192521112, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668531192521117, "dur":1378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1668531192522532, "dur":170228, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668531191739487, "dur":236, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668531191739724, "dur":6658, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668531191746384, "dur":296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1668531191746680, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668531191746750, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668531191754073, "dur":64453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1668531191818578, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1668531191818631, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668531191818699, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668531191819106, "dur":55451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1668531191874594, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1668531191874693, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668531191874732, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668531191874736, "dur":24730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1668531191899511, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1668531191899552, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668531191899585, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668531191899591, "dur":95745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1668531191995383, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1668531191995434, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668531191995513, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668531191995522, "dur":35648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1668531192031209, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1668531192031244, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668531192031307, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668531192031316, "dur":32264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1668531192063621, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1668531192063668, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668531192063705, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668531192063714, "dur":25143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1668531192088893, "dur":95415, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":9, "ts":1668531192184310, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668531192184402, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668531192184413, "dur":2987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":9, "ts":1668531192187447, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":9, "ts":1668531192187487, "dur":262, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668531192187756, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668531192187765, "dur":388334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":9, "ts":1668531192576138, "dur":116634, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1668531191739554, "dur":174, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1668531191739728, "dur":6667, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1668531191746398, "dur":378, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1668531191746776, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1668531191746847, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1668531191843837, "dur":1450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1668531191845332, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1668531191845378, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1668531191845407, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1668531191845416, "dur":33796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1668531191879260, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1668531191879297, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1668531191879331, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1668531191879341, "dur":26814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1668531191906193, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1668531191906230, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1668531191906261, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1668531191906268, "dur":68919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1668531191975253, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1668531191975304, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1668531191975356, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1668531191975382, "dur":35760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1668531192011179, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1668531192011218, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1668531192011327, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1668531192011367, "dur":28618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1668531192040031, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1668531192040073, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1668531192040104, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1668531192040111, "dur":27916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1668531192068166, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1668531192068219, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1668531192068255, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1668531192068329, "dur":75432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1668531192143803, "dur":11302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":10, "ts":1668531192155106, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1668531192155141, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1668531192155146, "dur":1036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":10, "ts":1668531192156216, "dur":925, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":10, "ts":1668531192157142, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1668531192157270, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1668531192157280, "dur":1180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":10, "ts":1668531192158506, "dur":27701, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1668531192186208, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1668531192186354, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1668531192186366, "dur":2392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1668531192188799, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1668531192188833, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1668531192188864, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1668531192188872, "dur":68516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1668531192257429, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":10, "ts":1668531192257467, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1668531192257498, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1668531192257508, "dur":227410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":10, "ts":1668531192484967, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":10, "ts":1668531192485014, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1668531192485025, "dur":12133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":10, "ts":1668531192497203, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1668531192497278, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1668531192497293, "dur":40594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1668531192537934, "dur":154849, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668531191739604, "dur":137, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668531191739741, "dur":6665, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668531191746410, "dur":247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1668531191746657, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668531191746686, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668531191748953, "dur":1753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1668531191750752, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1668531191750872, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668531191750949, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668531191751012, "dur":1390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1668531191752465, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":11, "ts":1668531191752603, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668531191752638, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668531191752647, "dur":1621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":11, "ts":1668531191754327, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":11, "ts":1668531191754478, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668531191754534, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668531191754544, "dur":68631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":11, "ts":1668531191823224, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668531191823279, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668531191823312, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668531191823357, "dur":28747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668531191852146, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668531191852185, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668531191852298, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668531191852306, "dur":44855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668531191897204, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668531191897251, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668531191897281, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668531191897291, "dur":57036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668531191954369, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668531191954413, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668531191954447, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668531191954456, "dur":55933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668531192010443, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668531192010500, "dur":311, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668531192010820, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668531192010832, "dur":29647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668531192040518, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668531192040553, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668531192040591, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668531192040598, "dur":32084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668531192072723, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668531192072762, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668531192072801, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668531192072809, "dur":57554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668531192130400, "dur":1013, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668531192131414, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668531192131498, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668531192131540, "dur":1009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668531192132585, "dur":60870, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668531192193456, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668531192193551, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668531192193563, "dur":3371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668531192196974, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668531192197011, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668531192197045, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668531192197053, "dur":120803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668531192317911, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668531192317949, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668531192317980, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668531192317993, "dur":132995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668531192451032, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/sharedassets6.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1668531192451659, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668531192451674, "dur":12268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/sharedassets6.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1668531192464020, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1668531192464068, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668531192464076, "dur":7429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1668531192471547, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1668531192471595, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668531192471607, "dur":7445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1668531192479095, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1668531192479761, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668531192479779, "dur":75817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1668531192555631, "dur":137146, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668531191739658, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668531191739659, "dur":6753, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668531191746414, "dur":309, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1668531191746723, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668531191746751, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668531191748630, "dur":2155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1668531191750829, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1668531191750991, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668531191751030, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668531191751039, "dur":1654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1668531191752734, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":12, "ts":1668531191752832, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668531191752863, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668531191753047, "dur":65558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":12, "ts":1668531191818658, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1668531191818794, "dur":282, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668531191819083, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668531191819616, "dur":58276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1668531191877954, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1668531191878010, "dur":247, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668531191878265, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668531191878275, "dur":144242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1668531192022559, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1668531192022602, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668531192022668, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668531192022678, "dur":58981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1668531192081705, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1668531192081748, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668531192081791, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668531192081801, "dur":137618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1668531192219456, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":12, "ts":1668531192219492, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668531192219520, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668531192219527, "dur":46998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":12, "ts":1668531192266590, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":12, "ts":1668531192266640, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668531192266683, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668531192266836, "dur":319878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cedri/Downloads/War Storm/War Storm_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":12, "ts":1668531192586744, "dur":106018, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668531192698814, "dur":2641, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1668531192729138, "dur": 961, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1668531192729042, "dur": 1090, "ph": "X", "name": "Write chrome-trace events", "args": {} },
